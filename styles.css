@@ -48,7 +48,7 @@ section {
 }
 
 .orange {
-    color: #f06449;
+    color: blue;
 }
 
 p {
@@ -151,6 +151,11 @@ button {
 .dark-theme section {
   background-color: #242424;
 }
+.dark-theme .title.orange {
+    color: blue;
+}
+
+
 
 .dark-theme #personal-logo {
     filter: none;
@@ -201,7 +206,7 @@ LANDING PAGE
 }
 
 .social__link {
-    background-color: #f06449;
+    background-color: blue;
     color: white;
     padding: 6px;
     width: 32px;
@@ -419,8 +424,8 @@ li {
 }
 
 .form__submit {
-    background-color: #f06449;
-    border: 2px solid #f06449;
+    background-color: blue;
+    border: 2px solid white;
     color: white;
     font-weight: 700;
     width: 100%;
@@ -459,7 +464,7 @@ li {
 }
 
 .modal__overlay--success {
-   background-color: #4bb543;
+   background-color: blue;
    font-size: 40px;
    font-weight: 700;
    text-align: center;
@@ -515,13 +520,12 @@ li {
 
 .project__img {
     width: 100%;
-    
     transition: all 600ms ease;
 }
 
 .project__wrapper {
     position: relative;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 0 20px 80px 0 rgb(0, 0, 0.45);
     overflow: hidden;
 }
@@ -584,7 +588,7 @@ li {
 
 footer {
     position: relative;
-    background-color: #242424;
+    background-color: black;
 }
 
 .footer__social--list {
